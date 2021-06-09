@@ -22,7 +22,7 @@ class InstaStories extends StatelessWidget {
       padding: const EdgeInsets.only(top: 8.0),
       child: new ListView.builder(
         scrollDirection: Axis.horizontal,
-        itemCount: 10,
+        itemCount: 15,
         itemBuilder: (context, index) => new Stack(
           alignment: Alignment.bottomRight,
           children: <Widget>[
